@@ -1,0 +1,180 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+.overall-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.first-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: beige;
+    gap: 2rem;
+    border-radius: 30px;
+    box-shadow: 2px 2px 0.5px white;
+    flex-direction: column;
+    padding:1rem;
+    width: 30rem;
+    overflow: hidden;
+}
+
+.container2{
+height: 80vh;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.second-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: beige;
+    gap: 2rem;
+    border-radius: 30px;
+    box-shadow: 1px 1px 0.05px black;
+    flex-direction: column;
+    width: 30rem;
+    padding: 2em;  
+    margin-top: 1em;
+}
+
+.write-up{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+}
+
+.submit{
+    padding: 20px;
+    border-radius:10px;
+    transition: 200ms ease-in-out;
+    cursor: pointer;
+
+}
+.submit:hover{
+      background-color: black;
+      color: white;
+
+}
+#input{
+    width: 20rem;
+    height: 2rem;
+    border-radius: 10px;
+    padding-left: 10px;
+    outline: none;
+}
+
+.message-box{
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.message-box ol{
+padding: 0.5em 1.5em;
+}
+
+ol::marker {
+  color: blue;
+  font-size: 2rem;
+}
+
+.msg-heading{
+text-align: center;
+}
+
+ol li{
+background-color: rgb(214, 218, 223);
+padding: 0.5em;
+margin-bottom: 0.4em;
+border-radius: 0.3em;
+}
+
+.btn{
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    transition: 200ms ease-in-out;
+    cursor: pointer;
+    
+}
+.btnGenerate{
+padding: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    width: 20rem;
+    transition: 200ms ease-in-out;
+    cursor: pointer;
+
+    
+}
+.btn:hover{
+    color: black;
+    background-color: green;
+}
+.input{
+    height: 3rem;
+    width: 20rem;
+    word-break: break-all;
+    padding-left: 20px;
+    outline: none;
+}
+.copy-link-menu{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+.copy-link-input{
+    width: 14.4rem;
+    height: 2rem;
+    border-radius: 10px;
+}
+
+p{
+    font-size: 1rem;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+
+}
+button{
+    border: none;
+}
+.btnGenerate:hover{
+    color: black;
+    background-color: green;
+}
+
+.btnGenerate:active{
+    color: green;
+    font-size: 1rem;
+    font-weight: 1rem;
+}
+.submit:active{
+color: green;
+font-size: 1rem;
+font-weight: 900;
+}
+.show{
+    display: block;
+}
+.hidden{
+    display: none;
+}

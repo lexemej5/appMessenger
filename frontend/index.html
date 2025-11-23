@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/style.css">
+    <title>test</title>
+  </head>
+  <body>
+   <div class="overall-container">
+        <div class="container1">
+            <div class="first-box">
+                <h2>Anonymous Message</h2>
+                <input type="text" placeholder="Input your username"  id="input">
+                <div class="button">
+                     <button class="btnGenerate">Generate Link</button>
+            
+                </div>
+                <div class="copy-link-menu">
+            
+                   <input class="link-input" style="padding: 10px;" type="text" placeholder="http://localhost:3000/?to=username" class="copy-link-input">
+                   <button class="btn copy-btn">Copy link</button>
+                </div>
+            
+            
+            <div class="message-box"><h3 class="msg-heading">View Messages</h3><ol class="lists"></ol></div>
+            </div>
+        </div>
+        <div class="container2">
+            <div class="second-box">
+                <h3 class="user"></h3>
+                <div class="inside-container">
+                    <form action="">
+                        <div class="write-up">
+            
+                        <input type="text" class="input send-input" placeholder="Type Your Message">
+                        <button class="btn submit" type="submit">Submit</button>
+                             </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
